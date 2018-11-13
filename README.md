@@ -1,2 +1,2 @@
 # LonghornDataExchange
-Website for the Longhorn Data Exchange
+Visit the website at [longhorndataexchange.github.io](longhorndataexchange.github.io)
