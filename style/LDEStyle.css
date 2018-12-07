@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+.fill {
+  height: calc(100vh - 72px);
+}
+
+.sidebar {
+  overflow-y: auto;
+}
+
+.long-main {
+  overflow-y: auto;
+}
+
+.btn-wrap {
+  white-space: normal;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}

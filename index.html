@@ -2,229 +2,83 @@
 <html>
 
 <head>
+  <!-- Hello World! -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <style> @import url('https://fonts.googleapis.com/css?family=Oxygen');
-	</style>
-  <link rel="stylesheet" href=".css">
-  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style/LDEStyle.css">
 </head>
 
-<body style="	background-image: Images/LDELogoTruncated.jpg;	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
-  <nav class="navbar navbar-expand-md navbar-light" style="">
-    <div class="container">
-      <a class="navbar-brand" href="#" contenteditable="true"><img src="Images/Logo with Name.jpg" width="150" height="75" class="d-inline-block align-top" alt="" style=""></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+<body>
+  <div class="container-fluid p-0" style=" height: 100vh">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg bg-white border-bottom border-dark">
+      <a class="navbar-brand" href="#">
+        <img src="./images/LDELogo.jpg" height="45" width="45" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#Explore">Visit</a>
+            <a class="nav-link" href="./explore/index.html">Explore</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Contribute">Contribute</a>
+            <a class="nav-link" href="./contribute/index.html">Contribute</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#About">About</a>
+            <a class="nav-link" href="./about/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact/index.html">Contact</a>
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
-  <div class="bg-light border">
-    <div class="container py-2">
-      <div class="row">
-        <div class="col-md-6 py-2">
-          <h1 class="">Welcome!</h1>
-          <p class="lead">The Longhorn Data Exchange provides insights into student organization activity.</p>
-        </div>
-        <div class="col-md-6">
-          <p>We collect, aggregate, and publish information relevant to student organization at UT. Explore our exchanges or contribute information.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="">
-    <div class="container py-2">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-1" id="Explore">Explore</h1>
-        </div>
-      </div>
-      <div class="row px-5">
-        <div class="col-lg-3 col-md-6">
-          <img class="img-fluid d-block p-4" src="svg/004-food.svg">
-          <a class="btn btn-primary btn-block" href="explore/Banquets.html">Banquet</a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img class="img-fluid d-block p-4" src="svg/005-chef.svg">
-          <a class="btn btn-primary btn-block" href="explore/Caterers.html">Caterer</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/002-payment.svg">
-          <a class="btn btn-primary btn-block" href="explore/Corporate.html">Corporate Supporter</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/006-table.svg">
-          <a class="btn btn-primary btn-block" href="explore/Equipment.html">Equipment</a>
-        </div>
-      </div>
-      <div class="row px-5">
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/007-calendar.svg">
-          <a class="btn btn-primary btn-block" href="explore/Major Events.html">Major Events</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/008-team.svg">
-          <a class="btn btn-primary btn-block" href="explore/Officer Structure.html">Officer Structure</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/009-project.svg">
-          <a class="btn btn-primary btn-block" href="explore/Projects.html">Project</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/010-dance.svg">
-          <a class="btn btn-primary btn-block" href="explore/Social.html">Social</a>
-        </div>
-      </div>
-      <div class="row px-5">
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/001-speaker.svg">
-          <a class="btn btn-primary btn-block" href="explore/Speaker.html">Speaker</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/011-tablet.svg">
-          <a class="btn btn-primary btn-block" href="explore/Technology.html">Technology</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/012-learning.svg">
-          <a class="btn btn-primary btn-block" href="explore/Training.html">Training</a>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <img class="img-fluid d-block p-4" src="svg/003-heart.svg">
-          <a class="btn btn-primary btn-block" href="explore/Volunteer Opportunities.html">Volunteer Opportunities</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="bg-light border" style="">
-    <div class="container py-2">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-1" id="Contribute">Contribute</h1>
-        </div>
-      </div>
-      <div class="row px-5">
-        <div class="col-md-12 col-lg-6">
-          <div class="row">
-            <div class="col-md-6">
-              <img class="img-fluid d-block p-4" src="svg/014-sheet.svg"> </div>
-            <div class="col-md-6">
-              <h1 class="">Multiple Upload</h1>
-              <p class=""> Have lots of great ideas that you want to share all at once? We have an easy way to do that! Start the contriubtion process by filling out this <a href="http://bit.ly/LDEOrient"> Orientation Form. </a> If you are looking to return an upload document, <a href="http://bit.ly/LDEUpload"> upload the document here.</a>
-              </p>
+    </nav> <!-- End of Top Navbar -->
+
+    <div class="container-fluid">
+      <div class="row p-5 mx-auto" style="max-width: 1100px">
+
+        <!-- Middle Section -->
+        <div class="col-12 col-lg-6">
+          <div class="row p-0">
+            <h1>Longhorn Data Exchange </h1>
+            <p class="lead"> We improve student organizations at UT Austin by delivering insights, options, and reviews to leaders so that they
+              can make well-informed decisions.
+            </p>
+            <p> Running a student organization at UT is hard, as leaders often must make important decisions with little information. We help student
+              organizations by providing them with the information they need to make the right decisions for their situation.
+            </p>
+            <p> The information we provide comes from student organizations here at UT Austin, which we believe provide the best insights into current
+              trends, options, and resources. We actively seek the best experiences from organizations and curate it into useful information which
+              everyone can use. We hope that you find our information helpful and consider contributing your own organization's experiences.
+            </P>
+          </div>
+          <div class="row p-0 p-0">
+            <div class="col-12 col-md-4 button p-1">
+              <a href="./explore/index.html" class="btn btn-outline-secondary btn-block active" role="button" aria-pressed="false">Explore Insights</a>
+            </div>
+            <div class="col-12 col-md-4 button p-1">
+              <a href="./contribute/index.html" class="btn btn-outline-secondary btn-block active" role="button" aria-pressed="false">Contribute Data</a>
+            </div>
+            <div class="col-12 col-md-4 button p-1">
+              <a href="./about/index.html" class="btn btn-outline-secondary btn-block active" role="button" aria-pressed="false">Learn More</a>
             </div>
           </div>
+
         </div>
-        <div class="col-md-12 col-lg-6">
-          <div class="row">
-            <div class="col-md-6">
-              <img class="img-fluid d-block p-4" src="svg/015-paper.svg"> </div>
-            <div class="col-md-6">
-              <h1 class="">Single Upload</h1>
-              <p class="">Have only a couple updates to submit? Single upload may be more convenient for you! Feature coming soon.</p>
-            </div>
+        <div class="col-12 col-lg-6">
+          <div class="text-center">
+            <img class="mx-auto" src='./images/LDELogo.jpg' class="img-fluid" width=450></img>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="" style="">
-    <div class="container py-2">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-1" id="About">About</h1>
-        </div>
-      </div>
-      <div class="row px-5">
-        <div class="col-md-3" style="">
-          <div class="row">
-            <div class="col-md-9" style=""><img class="img-fluid d-block p-0" src="svg/013-email.svg"></div>
-          </div>
-        </div>
-        <div class="col-md-9" style="">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="">Contact</h1>
-              <p>
-                <a href="mailto:longhorndataexchange@gmail.com"> LonghornDataExchange@gmail.com </a>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-  </div>
-  <div class="text-center py-2">
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto col-md-12">
-          <h1 class="mb-3">Our team</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6 col-lg-3 p-4" style=""> <img class="img-fluid d-block rounded-circle" src="Images/Profile Picture v2.jpg">
-          <h4 contenteditable="true"> <b>Ethan Freeburg</b></h4>
-        </div>
-        <div class="col-6 col-lg-3 p-4" style=""> <img class="img-fluid d-block rounded-circle" src="Images/Image from iOS.jpg">
-          <h4> <b>Anh Tran</b></h4>
-        </div>
-        <div class="col-6 col-lg-3 p-4" style=""> <img class="img-fluid d-block rounded-circle" src="Images/eh.jpg">
-          <h4> <b>Arjun Nagpal</b></h4>
-        </div>
-        <div class="col-6 col-lg-3 p-4" style=""> <img class="img-fluid d-block rounded-circle" src="Images/1543099081_375.png">
-          <h4> <b>Jonathan Wu</b></h4>
-        </div>
-        <div class="col-6 col-lg-3 p-4" style=""> <img class="img-fluid d-block rounded-circle" src="Images/JimmyPicture.jpg">
-          <h4> <b>Jimmy Du</b></h4>
-        </div>
-        <div class="col-6 col-lg-3 p-4" style=""> <img class="img-fluid d-block rounded-circle" src="Images/image.png">
-          <h4> <b>Justin Leu</b></h4>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5 bg-light" style="	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <p class="lead">Longhorn Data Exchange</p>
-        </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-md-3 text-center">
-              <a class="btn m-2 p-2 btn-link" href="../about/reporterror.html">Report an Error</a>
-            </div>
-            <div class="col-md-3 text-center">
-              <a class="btn p-2 m-2 btn-link" href="../about/makesuggestion.html">Make a Suggestion</a>
-            </div>
-            <div class="col-md-3 text-center">
-              <a class="btn p-2 m-2 btn-link" href="../contribute/index.html">Contribute Data</a>
-            </div>
-            <div class="col-md-3 text-center">
-              <a class="btn p-2 m-2 btn-link" href="../about/index.html">Contact</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
