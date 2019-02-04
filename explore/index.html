@@ -7,32 +7,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../style/LDEStyle.css">
+
+  <!-- icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+  <link rel="manifest" href="/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- icon end -->
 </head>
 
 <body>
   <div class="container-fluid p-0" style=" height: 100vh">
-    <!-- Top Nav Bar -->
+    <!-- top nav bar -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg bg-white border-bottom border-dark">
-      <a class="navbar-brand" href="../index.html">
+      <a class="navbar-brand" href="http://longhorndataexchange.org">
         <img src="../images/LDELogo.jpg" height="45" width="45" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" href="../explore/index.html">Explore</a>
+        <ul class="nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">Explore <b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-3">
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../explore/index.html" class="font-weight-bold">Getting Started</a></li>
+                    <li><a href="../explore/recruitingboard/recruitingboard/index.html" class="font-weight-bold">Recruiting Board</a></li>
+                    <li><a href="../explore/directory/directory/index.html" class="font-weight-bold">Directory</a></li>
+                    <li><a href="../explore/equipment/equipment/index.html" class="font-weight-bold">Equipment</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../explore/event/index.html" class="font-weight-bold">Events</a></li>
+                    <li><a href="../explore/event/banquet/index.html">Banquets</a></li>
+                    <li><a href="../explore/event/caterer/index.html">Caterers</a></li>
+                    <li><a href="../explore/event/social/index.html">Socials</a></li>
+                    <li><a href="../explore/event/speaker/index.html">Volunteering</a></li>
+                    <li><a href="../explore/event/volunteering/index.html">Speakers, Tours, and Workshops</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../explore/operations/index.html" class="font-weight-bold">Operations</a></li>
+                    <li><a href="../explore/operations/corporate-supporter/index.html">Corporate Supporters</a></li>
+                    <li><a href="../explore/operations/technology/index.html">Technology</a></li>
+                    <li><a href="../explore/operations/officerStructures/index.html">Officer Structures</a></li>
+                    <li><a href="../explore/operations/tipsAndTricks/index.html">Tips and Tricks</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contribute/index.html">Contribute</a>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Contribute <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../contribute/index.html" class="font-weight-bold">Getting Started</a></li>
+                    <li><a href="../contribute/document.html" class="font-weight-bold">Documents</a></li>
+                    <li><a href="../contribute/currentContributionStatus.html" class="font-weight-bold">Current Contribution Status</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
-          <li class="nav-item">
+          <li class="dropdown nav-item">
             <a class="nav-link" href="../about/index.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contact/index.html">Contact</a>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">Contact <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../contact/connect.html" class="font-weight-bold">Connect with Us</a></li>
+                    <li><a href="../contact/directory.html" class="font-weight-bold">Complete the Directory</a></li>
+                    <li><a href="../contact/newsletter.html" class="font-weight-bold">Recieve the Newsletter</a></li>
+                    <li><a href="../contact/upload.html" class="font-weight-bold">Upload Documents</a></li>
+                    <li><a href="../contact/join.html" class="font-weight-bold">Join the Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
         </ul>
       </div>
@@ -45,17 +119,23 @@
         <nav class="col-12 col-md-3 col-xl-2 bg-light sidebar p-3 border-right">
           <div>
             <ul class="nav flex-column nav-pills">
-              <li class="nav-item" >
-                <a class="nav-link active" href="#">Getting Started</a>
+              <li class="nav-item left-nav-l2" >
+                <a class="nav-link active" href="./index.html">Getting Started</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item left-nav-l2">
+                <a class="nav-link" href="./recruitingboard/recruitingboard/index.html">Recruiting Board</a>
+              </li>
+              <li class="nav-item left-nav-l2">
+                <a class="nav-link" href="./directory/directory/index.html">Directory</a>
+              </li>
+              <li class="nav-item left-nav-l2">
+                <a class="nav-link" href="./equipment/equipment/index.html">Equipment</a>
+              </li>
+              <li class="nav-item left-nav-l2">
+                <a class="nav-link" href="./event/index.html">Events</a>
+              </li>
+              <li class="nav-item left-nav-l2" >
                 <a class="nav-link" href="./operations/index.html">Operations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./recruiting/index.html">Recruiting</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./best-practices/index.html">Best Practices</a>
               </li>
             </ul>
           </div>
@@ -65,59 +145,45 @@
           <div class="col-12 col-md-9 col-xl-10 long-main p-5">
             <h1> Start Exploring </h1>
             <p class="lead"> Explore the insights we have collected by selecting the link on the left.</p>
-            <h2>Categories</h2>
-            <p> We have divided the data we collect into three major categories.</p>
+            <p> We have divided the data we collect into five major categories.</p>
             <ul>
               <li>
-                <p><b>Operations:</b> See insights into technology and resources available for student organizations and what types of events are being hosted.</p>
+                <p>
+                  <b>Recruiting Board</b>
+                  The recruiting board lists opporuntiies and applications to join organizations.
+                  Students can filter applications to find opportunities which fit their interests.
+                  Organizations can recruit members with the traits that they need.
+                </p>
               </li>
               <li>
-                <p><b>Recruiting:</b> Find opportunities within student organizations and better target specific student demographics. <i> Coming Soon.</i></p>
+                <p>
+                  <b>Directory</b>
+                  The directory lists details about organizations which have contributed information.
+                  Organization officers can use this information to compare their organization to others
+                  or contact other organizations.
               </li>
               <li>
-                <p><b>Best Practices:</b> Access the common body of knowledge for student organizations at UT Austin.<i> Coming Soon.</i></p>
+                <p><b>Equipment</b>
+                  The equipment exchange details properties, rental rates, and contact information for equipment controlled by student organizations.
+                  Event organizers can use this to find the equipment they need for events.
+                  Organizations can list information to increase usage of equipment by listing it on the exchange.
+                </p>
+              </li>
+              <li>
+                <p><b>Events</b>
+                  The event exchanges provides options for event organizers to quickly survey possible events they could hold.
+                  Officers can view social activies, volunteering opportunities, speakers, banquet venues, and caterers with
+                  relevant details to quickly determine what the best option is for their organizations.
+                </p>
+              </li>
+              <li>
+                <p><b>Operations</b>
+                  The operation exchanges provide strategic options for officers to improve their organizations.
+                  Officers should browse this list to understand actions which can improve the efficiency,
+                  financial situation, or operational abilities of the organization.
+                </p>
               </li>
             </ul>
-
-            <h2>Use</h2>
-            <p> We envision you using the provided information in several ways:</p>
-            <ul>
-              <li>
-                <p><b>Options:</b> Discover what range of options are available to you that other organizations are using.</p>
-              </li>
-              <li>
-                <p><b>Examples:</b> Find examples of events other student organizations have executed to inspire your own events.</p>
-              </li>
-              <li>
-                <p><b>Experts:</b> Find organizations that have already done what you are trying to do using our events reporting.</p>
-              </li>
-              <li>
-                <p><b>Trends:</b> Get ahead of university-wide trends and changes by looking through our analysis.</p>
-              </li>
-            </ul>
-
-            <h2> Views </h2>
-            <p> You can view information in three different forms: aggregated views, event views, or analysis.</p>
-
-            <div class="inset p-4">
-              <h3>Aggregate Views</h3>
-              <p>Aggregate views provide information grouped by some characteristic. This view groups organization's experiences by a category, giving you a clean
-                and straightforward way to analyze a range of options. This view also presents the many different experiences of various reporters about a single subject in a single place.
-              </p>
-              <p>Aggregate views are a great place to start if you are brainstorming, looking for options, or trying to see what's out there. By browsing through the aggregate view, you will see the best source
-              of unique options which other organizations have already implemented.
-              </p>
-              <p><i> Please note that some information does not have a aggregate view because the data is inherently unique or averaged before it is entered.
-              In these cases, there will be no aggregate view present.</i></p>
-              <h3>Event Views</h3>
-              <p> Most the information we receive is event focused, which means that it contains information only about a single organization at a single point in time. We
-                treat this as the raw data behind the aggregate views we present.</p>
-              <p> This information is best used to compare your specific events or plans with another organization. For example, if you want to copy a social
-                from another organization, you might want to see more details about the specific event that the organization reported.</p>
-              <h3>Analysis</h3>
-              <p> We come across some pretty interesting insights while processing all this information. If we have any to share, you can find it posted to the analysis page.</p>
-              <p> Additionally, you can find extra information about what the exchange contains and how the exchange was created through this tab. </p>
-            </div>
           </div>
         </div> <!-- Middle Section -->
       </div> <!-- Top level row-->

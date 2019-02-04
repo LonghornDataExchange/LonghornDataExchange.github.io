@@ -7,55 +7,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../style/LDEStyle.css">
+
+  <!-- icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+  <link rel="manifest" href="/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- icon end -->
 </head>
 
 <body>
   <div class="container-fluid p-0" style=" height: 100vh">
-    <!-- Top Nav Bar -->
+    <!-- top nav bar -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg bg-white border-bottom border-dark">
-      <a class="navbar-brand" href="../index.html">
+      <a class="navbar-brand" href="http://longhorndataexchange.org">
         <img src="../images/LDELogo.jpg" height="45" width="45" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto nav-pills">
-          <li class="nav-item">
-            <a class="nav-link " href="../explore/index.html">Explore</a>
+        <ul class="nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">Explore <b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-3">
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../explore/index.html" class="font-weight-bold">Getting Started</a></li>
+                    <li><a href="../explore/recruitingboard/recruitingboard/index.html" class="font-weight-bold">Recruiting Board</a></li>
+                    <li><a href="../explore/directory/directory/index.html" class="font-weight-bold">Directory</a></li>
+                    <li><a href="../explore/equipment/equipment/index.html" class="font-weight-bold">Equipment</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../explore/event/index.html" class="font-weight-bold">Events</a></li>
+                    <li><a href="../explore/event/banquet/index.html">Banquets</a></li>
+                    <li><a href="../explore/event/caterer/index.html">Caterers</a></li>
+                    <li><a href="../explore/event/social/index.html">Socials</a></li>
+                    <li><a href="../explore/event/speaker/index.html">Volunteering</a></li>
+                    <li><a href="../explore/event/volunteering/index.html">Speakers, Tours, and Workshops</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../explore/operations/index.html" class="font-weight-bold">Operations</a></li>
+                    <li><a href="../explore/operations/corporate-supporter/index.html">Corporate Supporters</a></li>
+                    <li><a href="../explore/operations/technology/index.html">Technology</a></li>
+                    <li><a href="../explore/operations/officerStructures/index.html">Officer Structures</a></li>
+                    <li><a href="../explore/operations/tipsAndTricks/index.html">Tips and Tricks</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../contribute/index.html">Contribute</a>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Contribute <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../contribute/index.html" class="font-weight-bold">Getting Started</a></li>
+                    <li><a href="../contribute/document.html" class="font-weight-bold">Documents</a></li>
+                    <li><a href="../contribute/currentContributionStatus.html" class="font-weight-bold">Current Contribution Status</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
-          <li class="nav-item">
+          <li class="dropdown nav-item">
             <a class="nav-link" href="../about/index.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contact/index.html">Contact</a>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">Contact <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="../contact/connect.html" class="font-weight-bold">Connect with Us</a></li>
+                    <li><a href="../contact/directory.html" class="font-weight-bold">Complete the Directory</a></li>
+                    <li><a href="../contact/newsletter.html" class="font-weight-bold">Recieve the Newsletter</a></li>
+                    <li><a href="../contact/upload.html" class="font-weight-bold">Upload Documents</a></li>
+                    <li><a href="../contact/join.html" class="font-weight-bold">Join the Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
           </li>
         </ul>
       </div>
     </nav> <!-- End of Top Navbar -->
 
     <div class="container-fluid fill">
-
       <!-- Left Side Nav Bar -->
       <div class="row fill">
         <nav class="col-12 col-md-3 col-xl-2 bg-light sidebar p-3 border-right">
           <div>
             <ul class="nav flex-column nav-pills">
-              <li class="nav-item" >
+              <li class="nav-item left-nav-l2">
                 <a class="nav-link active" href="./index.html">Getting Started</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./bulk-contribution.html">Bulk Contribution</a>
+              <li class="nav-item left-nav-l2">
+                <a class="nav-link" href="./document.html">Documents</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./single-contribution.html">Single Contribution</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./current-contributions.html">Current Contributions</a>
+              <li class="nav-item left-nav-l2">
+                <a class="nav-link" href="./currentContributionStatus.html">Current Contribution Status</a>
               </li>
             </ul>
           </div>
@@ -64,8 +134,6 @@
         <!-- Middle Section -->
         <div class="col-12 col-md-9 col-xl-10 long-main p-5">
           <h1> Start Contributing </h1>
-          <p class="lead"> We need information from organizations like your own. We gather information from student organizations
-            through electronic forms and documents, which are all available on our webiste. From there, we organize and publish the data for everyone to view.</p>
           <h2> Why Contribute? </h2>
           <p> There are lots of reasons why you should contribute information. </p>
           <ul>
@@ -79,46 +147,53 @@
               <p><b>Coming soon, you'll need to.</b> Starting late Spring 2019, we will be restricting access of information only to organizations which contribute sufficient information. Get ahead by contributing now and never lose access!</p>
             </li>
           </ul>
+          <h2> Ways to Contribute </h2>
+          <p> There are two main methods to contribute information: </p>
+          <div class="inset p-3">
+            <h3>Single Contribution</h3>
+            <p> For those who only a small amount of information to contribute, such as less than 7 entries, or only wish to update information, single upload is the way to go. You'll be directed to fill out a series of airtable forms (like google forms) which will directly enter information into our databases.</p>
 
-          <h2> How to Contribute </h2>
-            <p> There are two main methods to contribute information: </p>
-            <div class="inset p-3">
-              <h3>Bulk Contribution</h3>
-              <p> For those who need to upload a lot of information - such as first-time uploaders - bulk contriubtion is the way to go. With bulk upload,
-                we will send you a set of excel documents which you will fill out and return to us. This way, you can copy and paste or quickly enter a lot of information
-                into the forms. </p>
-              <p> To get started, click the "Bulk Contribution" tab to the left.
-              <h3>Single Contribution</h3>
-              <p> For those who only a small amount of information to contribute, such as less than 7 entries, or only wish to update information, single upload is the way to go. You'll be directed to fill out a series of airtable forms (like google forms)
-                which will directly enter information into our databases.</p>
-              <p> To get started, click the "Single Contribution" tab to the left.
-            </div>
+            <h3>Bulk Contribution</h3>
+            <p> For those who need to upload a lot of information - such as first-time uploaders - bulk contriubtion is the way to go. With bulk upload, we will send you or you can download a set of excel documents which you will fill out and return to us. This way, you can copy and paste or quickly enter a lot of information into the forms. </p>
 
-          <h2> First Time </h2>
-          <p> If this is your first time contributing, then you may want to contact us before starting the process. There are several ways to get in contact with us: </p>
-          <ul>
-            <li>
-              <p><b>Fill out the Introductory Form:</b> If you're interested in what we do and want to talk to us directly, fill out this <a href="../contact/connect.html">introductory form</a></p>
-            </li>
-            <li>
-              <p><b>Attend a Presentation:</b> Through the semester, we host information sessions where we explain how we work and answer questions from the audience. You can
-                find these events on Facebook when available.</p>
-            </li>
-            <li>
-              <p><b>Find us in a Council Meeting:</b> If your organization is a member of a student council, we may be presenting at some upcoming meeting. Be sure to come talk
-                to us then.</p>
-            </li>
-            <li>
-              <p><b>Email longhorndataexchange@gmail.com:</b> If all else fails, email us directly at longhorndataexchange@gmail.com</p>
-            </li>
+          </div>
 
-          </ul>
+          <h2> Steps to Contributing </h2>
+          <div class="inset p-3">
+
+            <h3> Step 1. Fill out the Connection Form </h3>
+            <p>
+              The connection form tells us who to contact to recieve further information.
+              We ask you for the contact information for the officers who should have the information to complete each exchange.
+              If exchanges are not relevant to you, you can make that known at this point. For example, we will ask you
+              for the contact information for the officer responsible for planning your social activities.
+            </p>
+
+            <h3> Step 2. We send relevant documents to each of the contacts that you provided to us.</h3>
+            <p>
+              With the contact information you provided to us, we will contact each of the listed officers in your organization
+              and ask them to complete the form which is relevant to them. For example, we will contact the the officer you listed as being
+              responsible for your social activites and ask them to contribute to the socials exchange.
+            </p>
+
+            <h3> Step 3. Your officers contribute information. </h3>
+            <p>
+              Your officers either complete the bulk upload form, which they can <a href="./document.html"> download here</a>, or they complete the
+              the single upload form, which can be found through the <a href="./document.html">links provided here</a>. As your officers contribute information,
+              the <a href="./currentContributionStatus.html">current contribution status</a> of the organization will update.
+            </p>
+
+            <h3> Step 4. Use the exchanges! </h3>
+            <p>
+              After, or before, your organization contribute information, explore the exchanges and learn more about what options,
+              strategies, opportunities, and equipment are availbale to your organization!
+            </p>
+          </div>
+
         </div>
-
       </div>
     </div>
   </div>
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
