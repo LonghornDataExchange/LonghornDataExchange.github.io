@@ -62,3 +62,7 @@ body {
   font-weight: light;
   padding-left: 20px !important;
 }
+
+.embed-responsive{
+  min-height: calc(100vh - 72px)
+}
