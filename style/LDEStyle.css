@@ -66,3 +66,16 @@ body {
 .embed-responsive{
   min-height: calc(100vh - 72px)
 }
+/*
+a {
+  color: #179391;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #F6B33E
+}
+
+a.nav-link.active {
+  background-color: red; !important
+} */
